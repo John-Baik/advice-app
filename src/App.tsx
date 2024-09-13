@@ -16,7 +16,7 @@ const fetchAdvice = async () => {
   return data.slip;
 };
 
-function App() {
+export default function App() {
   const { data, isLoading, refetch } = useQuery({
     queryKey: ["advice"],
     queryFn: fetchAdvice,
@@ -44,5 +44,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
