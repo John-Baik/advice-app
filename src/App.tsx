@@ -29,7 +29,7 @@ function App() {
   }
 
   return (
-    <div className="w-full h-full items-center flex-col flex justify-center py-20 px-8">
+    <div className="w-full h-full items-center flex-col flex justify-center py-20 px-0 xs:px-8">
       <AdviceCard>
         <AdviceCardContainer>
           <AdviceTitle id={data.id} title="Advice #" />

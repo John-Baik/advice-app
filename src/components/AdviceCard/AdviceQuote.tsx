@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 export default function AdviceQuote(props: {
-  children: ReactNode;
+  children?: ReactNode;
   src: string;
 }) {
   return (
